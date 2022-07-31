@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+/* http://www.rosettacode.org/wiki/Towers_of_Hanoi#C */
 void move(int n, int from, int via, int to)
 {
   if (n > 1) {
